@@ -28,7 +28,7 @@ lib/
 
 ## 🚀 Getting Started
 
-* 1. Initialize localization service before runApp:
+**1. Initialize localization service before runApp:
 
 ```
 WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +37,7 @@ await localizationService.loadTranslations();
 final savedLocale = await localizationService.loadSavedLocale();
 ```
 
-* 2. Usage:
+**2. Usage:
 
 ```
 return GetMaterialApp(
